@@ -1,5 +1,5 @@
 import streamlit as st              
-import streamlit_highcharts as hg              
+import streamlit_highcharts as shc              
 
 chartDef={ 'chart': { 'height': '100%',
              'type': 'packedbubble'},
@@ -293,4 +293,4 @@ chartDef={ 'chart': { 'height': '100%',
                'useHTML': True}}
 
 
-hg.streamlit_highcharts(chartDef,640)
+shc.streamlit_highcharts(chartDef,640)
